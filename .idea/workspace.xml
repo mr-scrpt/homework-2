@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="058762c5-b37b-4938-b965-caff532bfbcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Chat/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chat/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Message/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="058762c5-b37b-4938-b965-caff532bfbcb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Chat/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="775">
+              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -148,12 +143,12 @@
       <updated>1564558035579</updated>
       <workItem from="1564558036633" duration="8792000" />
       <workItem from="1564726585568" duration="1059000" />
-      <workItem from="1564910101363" duration="3288000" />
+      <workItem from="1564910101363" duration="3532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13929000" />
+    <option name="totallyTimeSpent" value="14173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1631" y="0" width="1816" height="1407" extended-state="0" />
@@ -236,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Chat/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="775">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
