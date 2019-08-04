@@ -1,12 +1,5 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-const Message = (props) => {
-  const {text} = props;
-  return (
-    <li>
-      {text}
-    </li>
-  )
+const Message = ({text}) => <li> {text} </li>;
 
-};
 export default Message

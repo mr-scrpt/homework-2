@@ -15,33 +15,29 @@ export default class Chat extends Component {
 
   sendMessageOnEnter = (e) => {
     if (e.key === 'Enter') {
-      this.setState((state) => {
-        state.messages.push({text: state.messageInput});
-      });
-      this.setState({
-        messageInput: ''
-      });
-    }
+      this.setState(({ messages, messageInput }) => ({messages: [...messages, { text: messageInput} ],  messageInput: ''}));
+}
   };
 
   render() {
     const {messages, messageInput} = this.state;
 
-    const list = messages.map(item => {
-      return <Message text={item.text}/>
+    const list = messages.map((item, idx) => {
+      return <Message text={item.text} key={idx}/>
     });
 
     return (
       <div className="chat">
         <ul className="list">
-          { messages.length ? list : null}
+          {messages.length ? list : null}
         </ul>
-        <input type="text"
-               className='input-message'
-               onChange={this.changeInputMessage}
-               onKeyPress={this.sendMessageOnEnter}
-               value={messageInput}
-               placeholder='What needs to be done'
+        <input
+          type="text"
+          className='input-message'
+          onChange={this.changeInputMessage}
+          onKeyPress={this.sendMessageOnEnter}
+          value={messageInput}
+          placeholder='What needs to be done'
         />
       </div>
     )
